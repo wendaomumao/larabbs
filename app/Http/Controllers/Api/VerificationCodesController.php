@@ -10,7 +10,7 @@ class VerificationCodesController extends Controller
 {
     public function store(VerificationCodeRequest $request)
     {
-        $phone = $request->phone;
-        return $phone;
+//        $phone = $request->phone;
+        return 123;
     }
 }
