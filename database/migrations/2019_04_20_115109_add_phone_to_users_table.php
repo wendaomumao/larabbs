@@ -31,4 +31,5 @@ class AddPhoneToUsersTable extends Migration
             $table->string('email')->nullable(false)->change();
         });
     }
+
 }
